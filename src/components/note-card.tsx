@@ -1,7 +1,7 @@
 export function NoteCard() { // Exportando o modelo das notas
     /**
      * ring-2 - como se fosse uma borda, mas é um box-shadow
-     * focus-visible = 
+     * focus-visible = é para ficar no estado de Focado com o Tab 
      */
     return (
         <button className='rounded-md text-left outline-none bg-slate-800 p-5 space-y-3 overflow-hidden relative hover:ring-2 
