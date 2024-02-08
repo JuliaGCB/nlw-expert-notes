@@ -28,12 +28,12 @@ export function App() { // Componentes  = Funções que devolvem HTML
       <div className='h-px bg-slate-700'></div>
 
       <div className='grid grid-cols-3 gap-6 auto-rows-[250px]'>
-      
-      <NewNoteCard/>
-      <NoteCard/>
-      <NoteCard/>
-      <NoteCard/>
-      
+
+        <NewNoteCard />
+        <NoteCard note={{ // Um objeto para falar sobre os dados das notas
+            date: new Date(),
+            content: 'Hello, world'
+          }} />
       </div>
     </div>
   )// Isso seria um JSX 
